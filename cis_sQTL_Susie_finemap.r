@@ -83,7 +83,7 @@ for (pf in prior_files) {
                var_y=var_y, R=R, L=10,
                estimate_prior_variance=TRUE,
                estimate_residual_variance=TRUE,
-               n=nrow(gt_sub)),
+               n= nrow(t(gt_sub))),
     error=function(e){ message('  -> SuSiE failed for ', locus); return(NULL) }
   )
   if (is.null(fitted)) next

@@ -14,7 +14,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-# 激活 conda 环境
 conda activate peer_env
 
 EXPR_DIR="/public/users/wuqingqin/wuqingqin/STAR_CELL/eqtl/iqt/splicing"
